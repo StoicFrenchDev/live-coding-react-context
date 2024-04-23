@@ -1,0 +1,34 @@
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 90vw;
+  height: 90vh;
+}
+
+#navbar{
+  border: solid;
+  border-color: aqua;
+  padding: 15px;
+  margin: 15px;
+}
+
+#content{
+  border: solid;
+  border-color: coral;
+  padding: 15px;
+  margin: 15px;
+}
+
+#footer{
+  border: solid;
+  border-color: chartreuse;
+  padding: 15px;
+  margin: 15px;
+}
+
+.dark-theme {
+  background-color: #1f2a38;
+  color: #F1F1F1;
+}
